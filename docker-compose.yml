@@ -1,0 +1,40 @@
+services:
+  nginx-proxy:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+
+    depends_on:
+      - main_server
+      - deploy_server
+    networks:
+      - backend
+
+  main_server:
+    build:
+      context: ./main_server
+    container_name: main_server
+    volumes:
+      - shared_data:/sites/deployed
+    networks:
+      - backend
+
+  deploy_server:
+    build:
+      context: ./deploy_server
+    container_name: deploy_server
+    volumes:
+      - shared_data:/sites/deployed:ro
+    networks:
+      - backend
+
+volumes:
+  shared_data: {}
+
+networks:
+  backend:
+    driver: bridge

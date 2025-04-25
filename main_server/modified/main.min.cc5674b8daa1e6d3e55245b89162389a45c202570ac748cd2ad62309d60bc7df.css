@@ -1,0 +1,172 @@
+
+
+[data-bs-theme=dark]{--bs-border-color:#f9edf2;--bs-body-bg:#f9edf2;--bs-body-color:#212529;--bs-emphasis-color:#212529;--bs-link-color:#b68bfc;--bs-underline-offset: 10%;--bs-emphasis-color-rgb:33, 37, 41;--bs-link-color-rgb:182, 139, 252;--bs-primary:#ec738f;--bs-secondary:#ede6f1;--bs-link-decoration-color:#ec738f;--bs-link-hover-color:#c94771;--bs-link-hover-color-rgb:201, 71, 113;--bs-body-color-rgb:254,227,252;--bs-secondary-color:rgba(225,213,230,0.5);}
+[data-bs-theme=dark] .td-navbar {
+    background-color: #f9edf2;
+    color: #212529;
+}
+
+[data-bs-theme=dark] .td-footer__center {
+    color: #593357;
+}
+
+[data-bs-theme=dark] a {
+    color: #f9edf2;
+
+}
+
+[data-bs-theme=dark] a:not([class]) {
+    color: #212529;
+}
+
+[data-bs-theme=dark] a:not([class]):hover {
+    color: gray;
+}
+
+[data-bs-theme=dark] a.btn-primary {
+    --bs-btn-color:  #212529;
+    --bs-btn-bg: #ec738f;
+    --bs-btn-border-color:#212529;
+    --bs-btn-hover-color: gray;
+    --bs-btn-hover-bg: #c94771;
+    --bs-btn-hover-border-color: gray;
+    --bs-btn-active-color: #f9edf2;
+    --bs-btn-active-bg: #c94771;
+    --bs-btn-active-border-color: #3772ff;
+    --bs-btn-disabled-color: gray;
+    --bs-btn-disabled-bg: #f9edf2;
+    --bs-btn-focus-color: #3772ff;
+    --bs-btn-focus-bg: #c94771;
+    --bs-btn-focus-border-color: gray;
+    --bs-btn-disabled-border-color: gray;
+    --bs-gradient: linear-gradient(180deg, #c94771, #c94771);
+}
+
+[data-bs-theme=dark] button, [type=button], [type=reset], [type=submit] {
+    background-color: #3772ff;
+    border-color: #3772ff;
+    color: #fefefe;
+}
+
+
+[data-bs-theme=dark] .btn-primary {
+    --bs-btn-color: #fefefe;
+    --bs-btn-bg: #ec738f;
+    --bs-btn-border-color: #ec738f;
+    --bs-btn-hover-color: #fefefe;
+    --bs-btn-hover-bg: #c94771;
+    --bs-btn-hover-border-color: #c94771;
+    --bs-btn-active-color: #fefefe;
+    --bs-btn-active-bg: #c94771;
+    --bs-btn-active-border-color: #ec738f;
+    --bs-btn-disabled-color: #fefefe;
+    --bs-btn-disabled-bg: #ec738f;
+    --bs-btn-disabled-border-color: #ec738f;
+    --bs-btn-focus-color: #fefefe;
+    --bs-btn-focus-bg: #c94771;
+    --bs-btn-focus-border-color: #ec738f
+}
+
+[data-bs-theme=dark] .btn-primary:hover {
+    --bs-btn-color: #212529;
+    --bs-btn-bg: #c94771;
+    --bs-btn-border-color: #c94771;
+    --bs-btn-focus-bg: #c94771;
+    --bs-btn-focus-border-color: #87aaff;
+}
+
+[data-bs-theme=dark] .btn-info {
+    --bs-btn-color: gray;
+    --bs-btn-bg: #c94771;
+    --bs-btn-border-color: #3772ff;
+    --bs-btn-hover-color: gray;
+    --bs-btn-hover-bg: #c94771;
+    --bs-btn-hover-border-color: #3772ff;
+    --bs-btn-focus-bg: #87aaff;
+    --bs-btn-focus-border-color: #87aaff;
+}
+
+[data-bs-theme=dark] .btn-danger {
+    --bs-btn-color: #fefefe;
+    --bs-btn-bg: #ec738f;
+    --bs-btn-border-color: #e66691;
+    --bs-btn-hover-color: #fefefe;
+    --bs-btn-hover-bg: #c94771;
+    --bs-btn-hover-border-color: #c94771;
+    --bs-btn-active-bg: #c94771;
+    --bs-btn-active-color: #fefefe;
+    --bs-btn-active-border-color: #c94771;
+    --bs-btn-disabled-color: #fefefe;
+    --bs-btn-disabled-bg: #ec738f;
+    --bs-btn-disabled-border-color: #ec738f;
+}
+
+[data-bs-theme=dark] .td-money-text:nth-of-type(1) {
+    --bs-primary: #f9edf2;
+    --bs-secondary: #212529;
+    --bs-success: #3772ff;
+    --bs-secondary-rgb: 34, 34, 34;
+    --bs-link-underline-offset: 4px;
+}
+
+[data-bs-theme=dark] .td-spacer {
+    --bs-border-color: #f9edf2;}
+[data-bs-theme=dark].td-overline .td-money-text {
+    padding-bottom: 0.25rem;
+}
+
+[data-bs-theme=dark] .td-column-right .td-column-item:nth-child(odd) .td-money-text {
+    background-color: #ec738f;}
+
+[x-data]:root[data-bs-theme=dark] .td-overline .td-money-text {
+    border-color: #f9edf2;
+}
+
+[x-data]:root[data-bs-theme=dark] .td-column-item td-spacer, [x-data]:root[data-bs-theme=dark] td-dropdown-item {
+    background-color: #c94771;
+    border-color: #c94771;
+}
+
+[x-data]:root[data-bs-theme=dark] .td-column-right .td-column-item:nth-child(odd) .td-money-text {
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #3772ff;
+    border-width: var(--bs-border-width);
+    border-style: var(--bs-border-style);
+    border-color: #3772ff;
+}
+
+[data-bs-theme=dark]::-webkit-scrollbar {
+    width: 10px;}
+
+[data-bs-theme=dark]::-webkit-scrollbar-track {
+    background-color: #c94771;}
+
+[data-bs-theme=dark]::-webkit-scrollbar-thumb {
+    background-color: #e66691}
+
+[data-bs-theme=dark]::-webkit-scrollbar-thumb:hover {
+    background-color: #75b798}
+
+[data-bs-theme=dark] .spinner-border {
+    border-color: #ec738f transparent transparent;
+}
+
+[data-bs-theme=dark] .spinner-grow {
+    color: #ec738f;
+}
+
+TITLE {
+        FILTER: satdivate(1.3);
+    background-color: #ec738f;
+}
+
+TITLE:hover {
+
+    background-color: #c94771;
+}
+
+DEL {
+        color: #c94771;
+}
+

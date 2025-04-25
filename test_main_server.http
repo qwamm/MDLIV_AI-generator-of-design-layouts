@@ -1,0 +1,25 @@
+###
+POST http://localhost:5000/api/design/redesign
+Content-Type: application/json
+
+{
+  "url": "http://kremlin.ru",
+  "prompt": "Without cache"
+}
+###
+POST http://localhost:5000/api/design/redesign
+Content-Type: application/json
+
+{
+  "url": "http://kremlin.ru",
+  "prompt": "With cache"
+}
+###
+POST http://localhost:5000/api/design/redesign
+Content-Type: application/json
+
+{
+  "url": "http://kremlin.ru/events/president/news",
+  "prompt": "Other site"
+}
+###

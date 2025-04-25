@@ -1,0 +1,9 @@
+.venv
+.idea
+*.pyc
+tmp/
+*.gguf
+/open_router_key
+model/
+/hugging_face_token
+/llama.cpp/
