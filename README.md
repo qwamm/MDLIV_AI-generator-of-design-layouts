@@ -49,8 +49,8 @@
 2. **Backend (FastAPI):**
    ```bash
    pip install -r main_server/requirements.txt
-   python main_server/start.py  # Доступно на http://localhost:8000
-   python deploy_server/start.py  # Доступно на http://localhost:8080 (сервер для развертывания измененных сайтов)
+   python main_server/run.py  # Доступно на http://localhost:8000
+   python deploy_server/run.py  # Доступно на http://localhost:8080 (сервер для развертывания измененных сайтов)
    ```
 
 3. **Прокси-сервер (Node.js):**
